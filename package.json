@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-paas-deployment",
+  "version": "1.0.0",
+  "description": "Simple Node.js application for PaaS deployment on Render",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "paas",
+    "render"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
