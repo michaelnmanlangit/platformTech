@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
         
         body {
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-          background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+          background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
           min-height: 100vh;
           display: flex;
           justify-content: center;
@@ -34,8 +34,8 @@ app.get('/', (req, res) => {
         }
         
         .container {
-          background: white;
-          border-radius: 20px;
+          background: #f8f9fa;
+          border-radius: 15px;
           box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
           padding: 50px;
           max-width: 600px;
@@ -59,7 +59,7 @@ app.get('/', (req, res) => {
           color: #333;
           margin-bottom: 30px;
           font-size: 2em;
-          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+          background: linear-gradient(135deg, #e94560 0%, #0f3460 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-clip: text;
@@ -68,13 +68,13 @@ app.get('/', (req, res) => {
         .info-section {
           margin: 25px 0;
           padding: 20px;
-          background: #e9ecef;
+          background: white;
           border-radius: 10px;
         }
         
         .label {
           font-weight: bold;
-          color: #667eea;
+          color: #e94560;
           font-size: 0.9em;
           text-transform: uppercase;
           letter-spacing: 1px;
@@ -90,7 +90,7 @@ app.get('/', (req, res) => {
         .quote-section {
           margin-top: 30px;
           padding: 25px;
-          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+          background: linear-gradient(135deg, #e94560 0%, #0f3460 100%);
           border-radius: 10px;
           color: white;
           font-style: italic;
